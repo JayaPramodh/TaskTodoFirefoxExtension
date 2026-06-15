@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=close");
+
+.task-container {
+  gap: 3rem;
+}
+
+.task-input {
+  width: 40vw;
+}
+
+.bg-transparent {
+  background-color: transparent;
+  border: none;
+}
+
+.font-med {
+  font-size: medium;
+}
+
+.bottom-border {
+  border-bottom: 3px solid;
+}
+
+.close-button {
+  size: 15px;
+}
+
+.close-button:hover {
+  cursor: pointer;
+}
+
+.task-todo {
+  right: 3rem;
+  bottom: 3rem;
+}

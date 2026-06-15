@@ -1,0 +1,8 @@
+.home-name-input {
+    width: 40vw;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid rgb(58, 43, 5);
+    text-align: center;
+    font-size: 1.5rem;
+}
