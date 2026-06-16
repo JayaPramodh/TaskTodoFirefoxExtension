@@ -7,6 +7,8 @@ This project helps users to markdown the important task of the day with the Todo
 
 The user can add extension to mozilla firefox. The app works locally.
 
+The app can also be accessed by the link on any device - https://jayapramodh.github.io/TaskTodoFirefoxExtension/
+
 ## Home
 
 The user invited with home page asking for user name.
