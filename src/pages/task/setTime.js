@@ -12,6 +12,16 @@ export function setTime(taskDispatch) {
         payload: `${h}:${m}`
     })
 
+    // Clear stored task data when the date changes while app is open
+    const fullDate = new Date();
+    const today = `${fullDate.getDate()}${fullDate.getMonth()}${fullDate.getFullYear()}`;
+    const storedDate = localStorage.getItem('time');
+    if (storedDate && storedDate !== today) {
+        localStorage.removeItem('name');
+        localStorage.removeItem('task');
+        localStorage.removeItem('todolist');
+    }
+
+    localStorage.setItem("time", today);
     setTimeout(() => setTime(taskDispatch), 1000);
-    localStorage.setItem("time", new Date().toDateString());
 }

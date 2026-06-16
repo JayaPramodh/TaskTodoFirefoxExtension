@@ -10,13 +10,6 @@ export function Home() {
 
     useEffect(() => {
         setTime(taskDispatch);
-        const currDate = new Date().toDateString();
-        if(currDate !== localStorage.getItem("time")) {
-            localStorage.removeItem('name');
-            localStorage.removeItem('task');
-            localStorage.removeItem('time');
-            localStorage.removeItem('todolist');
-        }
     }, []);
     
     function handleFormSubmit(event) {
