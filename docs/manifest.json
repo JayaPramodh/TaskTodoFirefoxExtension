@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "TaskTodo Extension",
+  "author": "Jaapsy",
+  "version": "1.0",
+  "description": "A servreless react as an add on to add task and todo",
+  "chrome_url_overrides": {
+    "new_tab": "index.html"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "my-extension@example.com",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ],
+        "optional": [
+          "browsingActivity"
+        ]
+      }
+    }
+  }
+}
